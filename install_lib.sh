@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+#SSH
+sudo apt-get install ssh
+sudo /etc/init.d/ssh start
+sudo update-rc.d ssh defaults
+
 #Actualizar Sistema
 sudo apt-get update
 sleep 4s
